@@ -1,0 +1,32 @@
+{
+  "name": "bases-node",
+  "version": "0.0.1",
+  "description": "Base de Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmontalvoo/bases-node.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "Node.js",
+    "JS"
+  ],
+  "author": "Frank Montalvo Ochoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmontalvoo/bases-node/issues"
+  },
+  "homepage": "https://github.com/fmontalvoo/bases-node#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -4,8 +4,6 @@
   "description": "Base de Node.js",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "start:dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +22,7 @@
   },
   "homepage": "https://github.com/fmontalvoo/bases-node#readme",
   "dependencies": {
-    "colors": "^1.4.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+    "colors": "^1.4.0",
+    "yargs": "^17.6.2"
   }
 }
